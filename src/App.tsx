@@ -12,7 +12,7 @@ function App() {
         Nav
       </GridItem>
       {/* show component makes sure to only render aside section on screens above large screen devices */}
-      <Show above="lg"> 
+      <Show above="lg">
         <GridItem area={"aside"} bg={"yellow"}>
           Aside
         </GridItem>
